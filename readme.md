@@ -2,9 +2,9 @@
 This is the project done by Dennis Kimani as required for the completion of the first section of Software Engineering course <a href="https://moringaschool.com/" target="_blank">Moringa School</a>, Nairobi.
 
 ## Mobile App
-This is the first phase. The objective of this project is to provide the user with an app where they can obtain details of a phone and add a phone to the register.<br> <br>
+The objective of this project is to provide the user with a site where they can obtain details of any-phone. The main aim of the project is to provide a site where a user can log-in, search any phone and get accurate specifications of the device and get a link to an e-commerce site to purchase the selected device.Currently the site has eight devices in the database. To increase the database, we have given the user a form that after filling, it adds to the database. To view the main specifications of the current devices, just click on the name of the device.<br> <br>
 ## Browser Version
-<strong>To run the project directly on the browser use<a href="https://phenomenal-bonbon-ba45ff.netlify.app">this link</a>. For accurate rendering, ensure the local host is watching the db.json.</strong>
+To run the project directly on the browser use<a href="https://phenomenal-bonbon-ba45ff.netlify.app">this link</a>. To ensure accurate rendering of the website, ensure that the local host is watching the db.json file in the repository.
 
 ### What you need to get started
 <ul>
@@ -21,8 +21,7 @@ recommend you use VS code editor<a></a></li> </ul>
 and clone this repository in to your computer</li> <li>Open the project-folder
 using VS code.</li> <li>Click on <strong>Go Live</strong> at the bottom right of
 the VS code window.<br>This will open your default browser and display the
-contents of the <strong>index.html</strong>.<li>Run <strong>json-server --watch
-db.json</strong> in the terminal<br></li> <li>Open a terminal and navigate to the project
+contents of the <strong>index.html</strong>.<li>Run <strong>npx json-server db.json</strong> in the terminal<br></li> <li>Open a terminal and navigate to the project
 directory. ie.".../Phase-one-Project"</li>
 <br>
 
@@ -37,7 +36,5 @@ Dennis Ngecha.
 
 ### Contributions
 Contributions are always welcome!
-
-Please adhere to this project's `code of conduct`.
 
 
