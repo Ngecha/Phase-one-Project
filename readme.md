@@ -24,6 +24,7 @@ the VS code window.<br>This will open your default browser and display the
 contents of the <strong>index.html</strong>.<li>Run <strong>json-server --watch
 db.json</strong> in the terminal<br></li> <li>Open a terminal and navigate to the project
 directory. ie.".../Phase-one-Project"</li>
+To run the project directly on the browser use<a href="https://phenomenal-bonbon-ba45ff.netlify.app">this link</a>. For accurate rendering, ensure the local host is watching the db.json.
 <br>
 
 ### Acknowledgement

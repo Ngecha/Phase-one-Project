@@ -144,3 +144,4 @@ function postComment(e){
       form.reset();
     });
   }
+  
