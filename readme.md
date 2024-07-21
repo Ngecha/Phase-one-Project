@@ -3,8 +3,8 @@ This is the project done by Dennis Kimani as required for the completion of the 
 
 ## Mobile App
 This is the first phase. The objective of this project is to provide the user with an app where they can obtain details of a phone and add a phone to the register.<br> <br>
-## Github Code
-<strong>Use <a href = "https://github.com/Ngecha/Phase-one-Project">this </a> to get the deployed site</strong>
+## Browser Version
+<strong>To run the project directly on the browser use<a href="https://phenomenal-bonbon-ba45ff.netlify.app">this link</a>. For accurate rendering, ensure the local host is watching the db.json.</strong>
 
 ### What you need to get started
 <ul>
@@ -24,7 +24,6 @@ the VS code window.<br>This will open your default browser and display the
 contents of the <strong>index.html</strong>.<li>Run <strong>json-server --watch
 db.json</strong> in the terminal<br></li> <li>Open a terminal and navigate to the project
 directory. ie.".../Phase-one-Project"</li>
-To run the project directly on the browser use<a href="https://phenomenal-bonbon-ba45ff.netlify.app">this link</a>. For accurate rendering, ensure the local host is watching the db.json.
 <br>
 
 ### Acknowledgement
