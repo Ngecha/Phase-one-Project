@@ -23,7 +23,7 @@ using VS code.</li> <li>Click on <strong>Go Live</strong> at the bottom right of
 the VS code window.<br>This will open your default browser and display the
 contents of the <strong>index.html</strong>.<li>Run <strong>json-server --watch
 db.json</strong> in the terminal<br></li> <li>Open a terminal and navigate to the project
-directory. ie.".../Phase-1-Project"</li>
+directory. ie.".../Phase-one-Project"</li>
 <br>
 
 ### Acknowledgement
