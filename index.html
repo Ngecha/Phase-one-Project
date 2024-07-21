@@ -4,25 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MobileInsight</title>
-    <!-- <link
+    <link
       rel="icon"
       href="./images/StockCake-Colorful Phone Cases_1721287549.jpg"
-    /> -->
+    />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div>
-      <h1 id="name">MobileInsight</h1>
-      <h3>Looking for a phone, <em>we gatchu!!!</em></h3>
-      <p>
-        we have the latest phones with their features and reviews from customers
-        to inform your decision.
-      </p>
-    </div>
-    <div id="content">
-      <div id="list"> </div>
-      <div id="posters"></div>
-      <div id="details"></div>
-    </div>
-  </body>
+    <div id="body">
+      <div id="headerName">
+        <h1 id="name">MobileInsight</h1>
+      </div>
+      
+      <nav class="navbar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+        <button id="dark">Dark / light </button>
+      </nav>
+      <div id="header">
+        <h3>Looking for a phone, <em>we gatchu!!!</em></h3>
+        <p>
+          we have the latest phones with their features and reviews from
+          customers to inform your decision.
+        </p>
+      </div>
+      <div id="content">
+        <div id="list"></div>
+        <div id="detailsContainer">
+          <div id="details"></div>
+          <div id="posters"></div>
+        </div>
+      </div>
+      
+      <div id="addPhone">
+        <p><em>Would you like to add a phone to our register? Fill in the form bellow.. </em> </p>
+        <form id="phoneForm">
+          <label for="phone">Phone Name:</label>
+          <input type="text" id="phone" name="phone" required>
+
+          <label for="memory">Memory:</label>
+          <input type="text" id="memory" name="memory" required>
+
+          <label for="battery">Battery:</label>
+          <input type="text" id="battery" name="battery" required>
+
+          <label for="display">Display:</label>
+          <input type="text" id="display" name="display" required>
+
+          <label for="processor">Processor:</label>
+          <input type="text" id="processor" name="processor" required>
+
+          <label for="price">Price:</label>
+          <input type="text" id="price" name="price" required>
+
+          <label for="image">Image Url:</label>
+          <input type="text" id="image" name="image" required>
+
+          <label for="stock">Stock Available:</label>
+          <input type="text" id="stock" name="stock" required>
+        
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+        <div id="comment-container">
+      </div>
+      <div id="comment-container">
+      </div>
+      <textarea name="" id="new-comment" cols="60" rows="5" placeholder="Add Comment"></textarea>
+      <br>
+      <button id="btn-post" type="submit">Post</button>
+    
+    <footer>
+      <section id="contact">
+        <h2>GET IN TOUCH!</h2>
+        <p>Thika Branch</p>
+        <p>5th Street Witeithia House Thika, Kenya.</p>
+        <p>Email us:</p>
+        <p>   info@mobileinsight.co.ke</p>
+        <p>   sales@mobileinsight.co.ke</p>
+        <p>Call us:</p>
+        <p>+254 729080286</p>
+      </section>
+    </footer>  
+  </div>  
+</body>
   <script src="./index.js"></script>
 </html>

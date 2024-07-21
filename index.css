@@ -1,0 +1,63 @@
+.navbar ul{
+    list-style-type:none;
+    background-color: rgb(66, 66, 145);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: block;
+}
+
+.navbar a:hover{
+    background-color: rgb(112, 112, 216);
+}
+.navbar li{
+    float: left;
+}
+
+body{
+    color: black;
+    background-color: beige;
+    margin: auto;
+    width: 70%;
+}
+.dark-mode{
+    color: azure;
+    background-color: black;
+}
+
+#headerName{
+color: blue;
+padding: 0;
+margin: 0;
+}
+#detailsContainer{
+    display: flex;
+}
+#list{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+#details{
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 100px;
+}
+footer {
+    padding:0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#phoneForm{
+    display: block;
+    max-width: min-content;
+    padding-bottom: 50px;
+}
