@@ -32,9 +32,6 @@ Engineering curriculum and the resources to guide the students through it.
 <br> <p> <strong>Prince Israel(Technical Mentor)</strong><br> Identified
 this as a good project idea and gave the go ahead for the project.<br>Guided the class through the class content which has been used in the project. </p> <br>
 
-## LICENSE
- MIT License
-
 ## AUTHOR
 Dennis Ngecha.
 
